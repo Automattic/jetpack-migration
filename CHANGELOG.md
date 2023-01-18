@@ -11,3 +11,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Introduce Jetpack Migration plugin structure
+
+### Changed
+- Updated package dependencies.
