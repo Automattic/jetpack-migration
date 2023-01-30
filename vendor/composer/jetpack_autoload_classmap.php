@@ -222,6 +222,14 @@ return array(
 		'version' => '1.7.14.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php'
 	),
+	'Automattic\\Jetpack\\Migration\\Jetpack_Migration' => array(
+		'version' => 'dev-trunk',
+		'path'    => $baseDir . '/src/class-jetpack-migration.php'
+	),
+	'Automattic\\Jetpack\\Migration\\REST_Controller' => array(
+		'version' => 'dev-trunk',
+		'path'    => $baseDir . '/src/class-rest-controller.php'
+	),
 	'Automattic\\Jetpack\\Modules' => array(
 		'version' => '1.16.1.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php'
@@ -585,10 +593,6 @@ return array(
 	'Jetpack_IXR_ClientMulticall' => array(
 		'version' => '1.49.1.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php'
-	),
-	'Jetpack_Migration' => array(
-		'version' => 'dev-trunk',
-		'path'    => $baseDir . '/src/class-jetpack-migration.php'
 	),
 	'Jetpack_Options' => array(
 		'version' => '1.49.1.0',
