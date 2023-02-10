@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Adds a REST route for Migration plugin to fetch status from source site.
+- Create Migration component
 - Introduce Jetpack Migration plugin structure
 
 ### Changed
