@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add migration progress screen and integrate into admin page
 - Adds a REST route for Migration plugin to fetch status from source site.
 - Create Migration component
 - Introduce Jetpack Migration plugin structure
